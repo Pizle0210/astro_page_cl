@@ -14,9 +14,9 @@ export default function Topbar() {
     return (
         <header className="w-full h-20 bg-white items-center flex border-b border-black/5">
             <div className="w-full flex items-center justify-between mx-auto md:px-12 px-8 max-w-7xl lg:px-16">
-                <div className="">
+                <Link to={'/'}>
                     <h1 className="text-[18px] font-semibold">AstroSass</h1>
-                </div>
+                </Link>
                 <button
                     className="md:hidden block text-black p-2"
                     onClick={toggleMenu}
