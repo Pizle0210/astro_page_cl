@@ -23,7 +23,7 @@ export default function Topbar() {
                 >
                     <Menu size={25} color='grey' />
                 </button>
-                <div className={`links flex-col md:flex-row md:space-x-9 items-center ${isMenuOpen ? 'flex' : 'hidden'} md:flex absolute md:static top-20 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none`}>
+                <div className={`links flex-col md:flex-row md:space-x-2 items-center ${isMenuOpen ? 'flex' : 'hidden'} md:flex absolute md:static top-20 left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none`}>
                     {topbarLinks.map((link, index) => (
                         <div className="flex" key={link.hash}>
                             <ul className="list-none group">
