@@ -1,3 +1,10 @@
+import figma from "../assets/Figma.svg";
+import canva from "../assets/Canva.svg";
+import stripe from "../assets/Stripe.svg";
+import gitLab from "../assets/Gitlab.svg";
+import linear from "../assets/Linear.svg";
+import gumroad from "../assets/Gumroad.svg";
+
 type FooterLink = {
   title: string;
   links: string[];
@@ -30,7 +37,7 @@ export const footerDescription = {
 export const topbarLinks = [
   { href: "/", key: "home", title: "Features", hash: "feature" },
   { key: "pricing", title: "Pricing", hash: "pricing" },
-  { key: "faq", title: "Faq", hash: "faq" },
+  { href: "/faq", key: "faq", title: "Faq", hash: "faq" },
   { href: "/sign-up", key: "signup", title: "Sign up", hash: "signup" },
   { href: "/sign-in", key: "login", title: "Log in", hash: "login" },
 ];
@@ -47,5 +54,39 @@ export const topThreeDescription = [
   {
     content:
       "Different section - The starter includes different feature sections, a pricing table, testmionial, CTA and full forms.",
+  },
+];
+
+// brands
+export const brandImages = [
+  {
+    src: figma,
+    width: 70,
+    height: 32
+  },
+  {
+    src: canva,
+    width: 70,
+    height: 32
+  },
+  {
+    src: stripe,
+    width: 70,
+    height: 35
+  },
+  {
+    src: gitLab,
+    width: 85,
+    height: 30
+  },
+  {
+    src: linear,
+    width: 95,
+    height: 32
+  },
+  {
+    src: gumroad,
+    width: 100,
+    height: 32
   },
 ];

@@ -4,6 +4,7 @@ import SignUp from "./pages/sign-up"
 import SignIn from "./pages/sign-in"
 import Topbar from "./components/shared/top-bar"
 import Footer from "./components/shared/footer"
+import Faq from "./pages/faq"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/faq" element={<Faq />} />
       </Routes>
       <Footer />
     </div>
