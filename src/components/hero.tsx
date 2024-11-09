@@ -1,11 +1,13 @@
+import dashboardImage from "../assets/dashboard.svg";
+import Brands from "./brands";
 import TopThree from "./top-three";
 import { Button } from "./ui/button";
 
-export default function Heading() {
+export default function Hero() {
   return (
     <section className="mx-auto mt-0 w-full max-w-7xl items-center px-8 py-24 md:px-12 lg:px-24">
       <div className="">
-        <div className="mb-10 flex flex-col sm:items-center justify-center text-center ">
+        <div className="mb-10 flex flex-col justify-center text-center sm:items-center">
           <a
             href="https://facebook.com"
             className="rounded-full border px-3 py-1 text-sm font-semibold text-[#2834ec]"
@@ -46,7 +48,18 @@ export default function Heading() {
         <div className="mt-10">
           <TopThree />
         </div>
+        {/* image */}
       </div>
+      <div className="relative mx-auto w-full max-w-7xl py-12 pb-12">
+        <div className="rounded-3xl bg-gray-100 p-8">
+          <img
+            src={dashboardImage}
+            alt="Dashboard illustration"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <Brands />
     </section>
   );
 }
