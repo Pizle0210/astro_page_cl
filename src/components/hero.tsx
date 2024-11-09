@@ -32,13 +32,13 @@ export default function Hero() {
           </p>
         </div>
         {/* buttons */}
-        <div className="mt-10 flex place-content-center items-center gap-3">
-          <Button className="h-10 rounded-lg border border-gray-200 bg-transparent px-6 font-medium text-black duration-200 hover:bg-transparent focus:outline-none lg:w-auto">
+        <div className="mt-10 flex place-content-center items-center gap-3 max-sm:flex-col">
+          <Button className="h-10 rounded-lg border border-gray-200 bg-transparent px-6 font-medium text-black duration-200 hover:bg-transparent focus:outline-none max-sm:w-full lg:w-auto">
             <a href="https://www.github.com" target="_blank">
               GitHub
             </a>
           </Button>
-          <Button className="h-10 rounded-lg border border-gray-200 bg-black px-6 font-semibold tracking-wider text-white ring-1 ring-inset ring-black duration-300 hover:bg-transparent hover:text-black focus:outline-none lg:w-auto">
+          <Button className="h-10 rounded-lg border border-gray-200 bg-black px-6 font-semibold tracking-wider text-white ring-1 ring-inset ring-black duration-300 hover:bg-transparent hover:text-black focus:outline-none max-sm:w-full lg:w-auto">
             <a href="https://www.github.com" target="_blank">
               Lexington Themes <span className="ml-3 font-extrabold">→</span>
             </a>
