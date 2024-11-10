@@ -21,7 +21,7 @@ export default function Hero() {
           </a>
         </div>
         <div className="mx-auto flex max-w-4xl flex-col justify-center space-y-5">
-          <h1 className="text-center text-4xl font-semibold leading-none tracking-wide md:text-5xl">
+          <h1 className="antialiased text-center text-4xl font-semibold leading-none tracking-wide md:text-5xl">
             A starter template built with Astro and Tailwind CSS for your next
             project
           </h1>

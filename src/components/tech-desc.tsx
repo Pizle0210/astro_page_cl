@@ -47,7 +47,7 @@ export default function TechDesc() {
     <section className="mx-auto max-w-6xl py-24 px-4 md:px-8 lg:px-12" id="features">
       <div className="mx-auto w-full scroll-mt-12 items-center px-8 md:px-12 lg:px-24">
         <div className="mx-auto max-w-xl text-center">
-          <p className="text-4xl font-medium tracking-tight text-black md:text-5xl">
+          <p className="antialiased text-4xl font-medium tracking-tight text-black md:text-5xl">
             I am a slightly longer heading than the others
           </p>
           <p className="mx-auto mt-4 text-lg tracking-tight text-gray-500">
