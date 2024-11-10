@@ -44,7 +44,7 @@ export default function TechDesc() {
   ];
 
   return (
-    <section className="mx-auto max-w-6xl py-24 px-4 md:px-8 lg:px-12" id="features">
+    <section className="mx-auto max-w-6xl py-24 px-4 md:px-8 lg:px-12 scroll-smooth scroll-mt-7" id="features">
       <div className="mx-auto w-full scroll-mt-12 items-center px-8 md:px-12 lg:px-24">
         <div className="mx-auto max-w-xl text-center">
           <p className="antialiased text-4xl font-medium tracking-tight text-black md:text-5xl">

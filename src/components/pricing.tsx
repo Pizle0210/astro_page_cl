@@ -7,7 +7,7 @@ export default function Pricing() {
   return (
     <section
       id="pricing"
-      className="scroll-mt-20 scroll-smooth"
+      className="scroll-mt-8 scroll-smooth"
       aria-label="pricing-section"
     >
       <div className="mx-auto max-w-7xl scroll-mt-5 space-y-24 px-4 py-10 md:px-8 lg:px-12">
@@ -26,7 +26,7 @@ export default function Pricing() {
             buttonText="Continue Free"
             className=""
             btnStyle={
-              "text-black text-lg ring-2 transition-all duration-300 ring-gray-300/80 hover:ring-gray-600 font-bold tracking-wide"
+              "text-black bg-transparent hover:text-white text-lg ring-2 transition-all duration-300 ring-gray-300/80 hover:ring-gray-600 font-bold tracking-wide"
             }
           />
           <PricingCards
