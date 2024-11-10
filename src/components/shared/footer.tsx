@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-between">
           <div className="flex items-start">
             <img src={logo} alt="logo" height={30} width={30} />
-            <h1 className="text-x px-3 font-bold">AstroSass</h1>
+            <h1 className="text-lg px-3 font-bold">AstroSass</h1>
           </div>
           <FooterColumn
             title={footerLinks[0].title}

@@ -9,7 +9,7 @@ import Faq from "./pages/faq"
 function App() {
 
   return (
-    <div className="w-screen min-h-svh flex justify-between flex-col mx-auto">
+    <div className="w-screen min-h-svh flex justify-between flex-col mx-auto !scroll-smooth">
       <Topbar />
       <Routes>
         <Route path="/" element={<Home />} />
