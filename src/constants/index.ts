@@ -5,12 +5,12 @@ import gitLab from "../assets/Gitlab.svg";
 import linear from "../assets/Linear.svg";
 import gumroad from "../assets/Gumroad.svg";
 
-type FooterLink = {
+export type FooterLinkType = {
   title: string;
   links: string[];
 };
 
-export const footerLinks: FooterLink[] = [
+export const footerLinks: FooterLinkType[] = [
   {
     title: "All pages",
     links: ["Home", "FAQ", "Terms", "Privacy", "Sign up", "Sign In"],
@@ -31,7 +31,7 @@ export const footerLinks: FooterLink[] = [
 
 export const footerDescription = {
   description:
-    "© 2024 Lexington Themes. All rights reserved. Lexington Themes is not affiliated with Astro or Tailwind Labs team, nor is it endorsed by or sponsored by this ones. A side project by Michael Andreuzza This website was built with React & Tailwind. Crafted in Åland Islands, Finland.",
+    "2024 Lexington Themes. All rights reserved. Lexington Themes is not affiliated with Astro or Tailwind Labs team, nor is it endorsed by or sponsored by this ones. A side project by Michael Andreuzza This website was built with React & Tailwind. Crafted in Åland Islands, Finland.",
 };
 
 export const topbarLinks = [
@@ -62,33 +62,74 @@ export const brandImages = [
   {
     src: figma,
     width: 70,
-    height: 32
+    height: 32,
   },
   {
     src: canva,
     width: 70,
-    height: 32
+    height: 32,
   },
   {
     src: stripe,
     width: 70,
-    height: 35
+    height: 35,
   },
   {
     src: gitLab,
     width: 85,
-    height: 30
+    height: 30,
   },
   {
     src: linear,
     width: 95,
-    height: 32
+    height: 32,
   },
   {
     src: gumroad,
     width: 100,
-    height: 32
+    height: 32,
   },
 ];
 
-
+export const cardData = [
+  {
+    price: "$0",
+    name: "Free Plan",
+    desc: "Basic access to the platform",
+    benefits: ["Access to basic features", "Community support"],
+    trial: "No trial available",
+  },
+  {
+    price: "$9.99",
+    name: "Starter Plan",
+    desc: "Ideal for individuals",
+    benefits: [
+      "Access to all features",
+      "Email support",
+      "1 GB storage",
+      "7-days free trial",
+    ],
+  },
+  {
+    price: "$49.99",
+    name: "Pro Plan",
+    desc: "Perfect for professionals",
+    benefits: [
+      "Priority support",
+      "10 GB storage",
+      "Advanced analytics",
+      "14-days free trial",
+    ],
+  },
+  {
+    price: "$99.99",
+    name: "Business Plan",
+    desc: "Best for large teams",
+    benefits: [
+      "Dedicated support",
+      "Unlimited storage",
+      "Custom integrations",
+      "30-day free trial",
+    ],
+  },
+];

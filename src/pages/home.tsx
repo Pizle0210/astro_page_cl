@@ -1,6 +1,8 @@
+import BottomBanner from "@/components/boottom-banner";
 import Experiences from "@/components/experiences";
 import Hero from "@/components/hero";
 import MultiSec from "@/components/multi-sec";
+import Pricing from "@/components/pricing";
 import TechDesc from "@/components/tech-desc";
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
       <TechDesc />
       <MultiSec />
       <Experiences />
+      <Pricing/>
+      <BottomBanner/>
     </div>
   );
 }
