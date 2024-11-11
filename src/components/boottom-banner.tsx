@@ -40,7 +40,7 @@ export default function BottomBanner() {
               </p>
               <p className="font-display mt-8 border-x-[#006D77] text-2xl font-medium tracking-tight text-black lg:border-l-4 lg:pl-4">
                 Use this code{" "}
-                <span className="font-bold text-accent">KAMPALA0210</span> and{" "}
+                <span className="font-bold text-[#006d77]">KAMPALA0210</span> and{" "}
                 <span className="text-black opacity-70 md:block">
                   get a 40% discount on the bundle
                 </span>
