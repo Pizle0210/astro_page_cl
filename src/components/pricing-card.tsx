@@ -38,7 +38,7 @@ function PricingCards({
       <Button className={twMerge(`p-6 ${btnStyle}`)}>{buttonText}</Button>
       <ul>
         {benefits.map((benefit, index) => (
-          <li key={index} className="mr-2 flex items-center">
+          <li key={index} className="mr-2 mb-1.5 font-[500] flex items-center">
             <span className="font-bold mr-3">
               <IoIosArrowForward />
             </span>
