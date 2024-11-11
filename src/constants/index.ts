@@ -108,7 +108,6 @@ export const cardData = [
     name: "Starter Plan",
     desc: "Ideal for freelancers, small startups, or personal use.",
     benefits: [
-      "Access to all features",
       "Email support",
       "10 GB storage",
       "1-3 users",
@@ -125,6 +124,7 @@ export const cardData = [
       "50 GB storage",
       "Up to 10 users",
       "Advanced analytics",
+      "Core features",
       "14-days free trial",
     ],
   },
