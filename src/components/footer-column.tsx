@@ -2,7 +2,7 @@ import type { FooterLinkType } from "@/constants";
 
 export default function FooterColumn({ title, links }:FooterLinkType) {
   return (
-    <div className="footer_column pb-20">
+    <div className="pb-20">
       <h4 className="ps-3 font-semibold underline underline-offset-4">
         {title}
       </h4>
